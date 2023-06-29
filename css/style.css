@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width:100%;
+	
+}
+.content{
+	width:600px;
+	height:470px;
+	margin:0 auto;
+	display:flex;
+	box-shadow:0 0 26px rgb(243,243,243);
+	border-radius:5px;
+	overflow:hidden;
+	position:relative;
+}
+.img img{
+	width:230px;
+	height:470px;
+	object-fit:cover;
+    object-position:left;
+   
+}
+.heading{
+	margin:2em;
+	margin-left:3em;
+	
+}
+.heading h1{
+	color:rgb(148,146,149);
+}
+span{
+	font-size:1em;
+	font-weight:900;
+	color:rgb(81,78,80);
+}
+.heading p{
+	margin-top:2em;
+	font-size:15px;
+	color:rgb(160,157,153);
+}
+.form{
+	position:absolute;
+	left:19em;
+	top:12em;
+}
+input{
+	font-size:18px;
+	width:15em;
+	border:none;
+	padding:1em 0;
+	outline:none;
+	border-bottom:2px solid rgb(246,246,246);
+}
+button{
+	margin-left:8em;
+	padding:15px 40px;
+	border-radius:23px;
+	background-color:rgb(176,138,247);
+	color:white;
+	border:none;
+	font-size:1em;
+	box-shadow:0 0 10px rgb(235,220,254);
+	cursor:pointer;
+}
+.form i{
+	 font-size: 1.4em;
+    position: absolute;
+    margin-left: -34px;
+    margin-top: 14px;
+	color:rgb(246,246,246);
+}
+.img a{
+	position:absolute;
+	left:1rem;
+	top:1rem;
+	font-size:2rem;
+	color:white;
+}
+.link{
+	position:absolute;
+	right:1rem;
+	bottom:1rem;
+	
+}
+.link a{
+	color:rgb(182,182,179);
+}
+ .form .fa-lock{
+	margin-left:-2rem;
+	margin-top:0.5rem;
+	font-size:2em;
+}
